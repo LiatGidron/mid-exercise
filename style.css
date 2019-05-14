@@ -204,5 +204,30 @@ h3, p {
     font-weight: bold;
     color: rgb(87,87,87);
     position: relative;
-    margin: 10px 0px;
+    margin: 10px 0px 20px 0px;
+}
+.flex-item2 > .read-more-link > a {
+    color: #72716d;
+    float: left;
+    font-size: 13px;
+    margin-top:15px;
+}
+.flex-item2 > .read-more-link > a:hover {
+    color: rgb(0, 92, 156);
+}
+.map {
+    float: left;
+}
+.flex-item2 > ul {
+    list-style-type: none;
+    padding: 0;
+}
+.flex-item2 > ul > li > a {
+    display: block;
+    padding: 5px 0px;
+    color: #72716d;
+    font-size: 13px;
+}
+.flex-item2 > ul > li > a:hover {
+    color: rgb(0, 92, 156);
 }
