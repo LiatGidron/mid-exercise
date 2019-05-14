@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     direction: rtl;
     text-align: right;
@@ -7,3 +10,16 @@ body {
     width: 900px;
     margin: auto; 
 }
+.flex-container {
+    display: flex;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .flex-container > div {
+      width: 33.3%;
+      margin: 5px;
+      border: solid;
+  }
