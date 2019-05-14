@@ -199,3 +199,10 @@ h3, p {
     border-right: 0.5px solid rgb(224, 224, 224);
     border-radius: 0% 10% 0% 0%;
 }
+.flex-item2 > h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(87,87,87);
+    position: relative;
+    margin: 10px 0px;
+}
