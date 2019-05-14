@@ -179,8 +179,15 @@ main > div.flex-container > div.flex-item1 > div.explanation-text {
     width: 248px;
     height: 97px;
     padding: 5px 10px;
+    margin-bottom: 3px;
 }
 h3, p {
-    margin: 1px 0px;
+    margin: 0px 0px;
 }
-
+.read-more-link > a {
+    color: white;
+    float: left;
+}
+.read-more-link > a:hover {
+    color: rgb(0, 92, 156);
+}
