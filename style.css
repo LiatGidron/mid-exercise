@@ -191,3 +191,11 @@ h3, p {
 .read-more-link > a:hover {
     color: rgb(0, 92, 156);
 }
+.flex-item2 {
+    height: 216px;
+    width: 292px;
+    background-image: url(images/images/small_cube_bg.png);
+    padding: 0px 24px;
+    border-right: 0.5px solid rgb(224, 224, 224);
+    border-radius: 0% 10% 0% 0%;
+}
