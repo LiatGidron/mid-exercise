@@ -284,5 +284,42 @@ h1 {
     background-image: url(images/images/contact_form_bg.png);
     padding: 12px 18px;
 }
+.contact-form-container > h2 {
+    font-size: 15px;
+    color: rgb(0, 92, 156);
+    margin: 0;
+}
+.contact-form > .contact-form-container > p:first-of-type {
+    font-weight: bold;
+    margin: 5px 0px;
+}
+form {
+    width: 245px;
+    margin: 10px auto;
+}
+div.form-line {
+    margin: 5px 0px;
+}
+label {
+    width: 75px;
+    display: inline-block;
+}
+input {
+    width: 160px;
+    padding: 2px;
+}
+button {
+    float: left;
+    border: 0.5px solid rgb(202, 202, 202);
+    border-radius: 0px 5px 0px 0px;
+    padding: 3px 12px;
+    background: linear-gradient(to bottom, rgba(12,163,228,1) 0%, rgba(1,89,144,1) 30%, rgba(1,89,144,1) 100%);
+    font-weight: bold;
+    color: white;
+}
+button:hover {
+    background: linear-gradient(to bottom, rgba(249,231,48,1) 0%, rgba(245,147,10,1) 100%);
+    color: black;
+}
 
   
