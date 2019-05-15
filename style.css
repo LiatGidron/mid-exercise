@@ -209,9 +209,16 @@ h3, p {
     float: left;
     font-size: 13px;
     margin-top:15px;
+    background-image: url("images/images/read_more_yellow.png");
+    background-repeat: no-repeat;
+}
+.flex-item2 > .read-more-link > a>span {
+    padding-left: 12px;
 }
 .flex-item2 > .read-more-link > a:hover {
     color: rgb(0, 92, 156);
+    background-image: url("images/images/read_more_blue.png");
+    background-repeat: no-repeat;
 }
 .map {
     float: left;
@@ -220,14 +227,19 @@ h3, p {
     list-style-type: none;
     padding: 0;
 }
-.flex-item2 > ul > li > a {
+.flex-container > .flex-item2 > ul > li > a {
     display: block;
-    padding: 5px 0px;
+    margin: 10px 0px;
     color: #72716d;
     font-size: 13px;
+    background-image: url("images/images/read_more_yellow.png");
+    background-repeat: no-repeat;
+    width: 40px;
 }
 .flex-item2 > ul > li > a:hover {
     color: rgb(0, 92, 156);
+    background-image: url("images/images/read_more_blue.png");
+    background-repeat: no-repeat;
 }
 .side-nav {
     float: right;
