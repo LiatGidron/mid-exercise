@@ -323,6 +323,9 @@ input {
     width: 160px;
     padding: 2px;
 }
+textarea {
+    width: 240px;
+}
 button {
     float: left;
     border: 0.5px solid rgb(202, 202, 202);
