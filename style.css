@@ -65,7 +65,7 @@ body {
   }
   nav > ul > li {
       display: inline;
-      padding: 0px 5px;
+      padding: 0px 7px;
       padding-bottom: 17px;
       float: right;
   }
@@ -89,7 +89,7 @@ body {
     background: linear-gradient(to top, #909090 85%,#909090 85%,#aaaaaa 100%);
     top: 32px;
     right: -15px;
-    width: 150px;
+    min-width: 160px;
   }
   .dropdown-content > a {
     display: block;
@@ -228,3 +228,28 @@ h3, p {
 .flex-item2 > ul > li > a:hover {
     color: rgb(0, 92, 156);
 }
+.side-nav {
+    float: right;
+    width: 122px;
+    margin-left: 22px;
+}
+.side-nav > ul {
+    border-top: 1px solid #dedede;
+    background-image: url("images/images/side_nav.png");
+    list-style: none;
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 122px;
+    height: 36px;
+    margin: 0;
+}
+.side-nav > ul > li > a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #5c5c5c;
+}
+.side-nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: rgb(0, 92, 156);
+  }
+  
